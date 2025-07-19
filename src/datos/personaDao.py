@@ -71,7 +71,7 @@ class PersonaDao:
 
 # Solo para prueba
 if __name__ == '__main__':
-    p = Persona(id='1', usuario='FerchoAdmin', clave='123456')
+    p = Persona(id='1', usuario='RudyAdmin', clave='160104')
     r = PersonaDao.actualizar_persona(p)
     print(r)
 
