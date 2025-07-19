@@ -123,8 +123,10 @@ class PersonaServicio(QMainWindow):
                 self.ui.statusbar.showMessage('Usuario eliminado correctamente.', 3000)
                 self.limpiar()
 
+
     def limpiar(self):
         self.ui.txtUsuarioid.clear()
         self.ui.cbUsuario.setCurrentIndex(-1)  # O 0 si tienes un valor por defecto
         self.ui.txtClave.clear()
         self.ui.txtBuscarUsuario.clear()
+
