@@ -32,6 +32,6 @@ class Persona:
         return f'Persona: {self.__dict__}'
 
 if __name__ == '__main__':
-    p = Persona(id='1', usuario='Fernando', clave='123456')
+    p = Persona(id='1', usuario='Rudy', clave='160104')
     print(p)
 
