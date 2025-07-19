@@ -16,6 +16,7 @@ class Conexion:
     _cursor = None
 
 
+
     @classmethod
     def obtenerConexion(cls):
         """

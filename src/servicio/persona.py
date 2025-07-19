@@ -130,3 +130,4 @@ class PersonaServicio(QMainWindow):
         self.ui.txtClave.clear()
         self.ui.txtBuscarUsuario.clear()
 
+

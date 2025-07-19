@@ -74,3 +74,4 @@ if __name__ == '__main__':
     p = Persona(id='1', usuario='FerchoAdmin', clave='123456')
     r = PersonaDao.actualizar_persona(p)
     print(r)
+
